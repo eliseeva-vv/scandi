@@ -1,0 +1,232 @@
+/* Общие стили */
+
+.page-body {
+    min-width: 1200px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: normal;
+    color: #533738;
+    background-color: #e5e5e5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #533738;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cc8b86;
+}
+
+a:focus {
+    color: #99544f;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1036px;
+}
+
+.wide-container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 26px 69px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px solid #cc8b86;
+    background-color: #cc8b86;
+}
+
+.button:hover {
+    color: #cc8b86;
+    border-color: white;
+    background-color: white;
+}
+
+.button:focus {
+    color: #99544f;
+    border: 2px solid #99544f;
+    background-color: white;
+}
+
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+/* Стили для шапки */
+
+.page-header {
+    margin-bottom: -110px;
+}
+
+.page-header .wide-container {
+    display: flex;
+    align-items: baseline;
+    padding-top: 36px;
+    padding-bottom: 46px;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+    align-self: normal;
+    margin-right: 83px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-right: 42px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 23px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.phone {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Стили для главного экрана */
+
+.main-container {
+    background-color: #ded7cb;
+    background-image: url("../img/light-wall-small-statue-and-mirror.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-screen {
+    padding-top: 150px;
+    padding-bottom: 166px;
+
+}
+
+.main-screen-text {
+    width: 46%;
+}
+
+.main-screen-heading {
+    margin-top: 0;
+    margin-bottom: 21px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.main-screen-description {
+    margin-top: 0;
+    margin-bottom: 21px;
+}
+
+/* Стили для раздела "О нас" */
+
+.company {
+    padding-top: 65px;
+    padding-bottom: 20px;
+}
+
+.half-wrap {
+    display: flex;
+}
+
+.company-img {
+    align-self: flex-start;
+    margin-right: 64px;
+}
+
+.text-wrap {
+    width: 50%;
+}
+
+.text-wrap p {
+    margin-top: 0;
+    margin-bottom: 29px;
+}
+
+/* Стили для раздела "Наши преимущества" */
+
+.advantages {
+    padding-top: 85px;
+    padding-bottom: 80px;
+    color: white;
+    background-color: #8d7370;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.advantages-item {
+    text-align: center;
+}
+
+.advantages-item span {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.advantages-item p {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+/* Стили для раздела "Наши работы" */
