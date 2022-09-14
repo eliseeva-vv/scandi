@@ -418,8 +418,8 @@ a:focus {
 
 .feedback-slider {
     position: relative;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 45px;
+    padding-left: 45px;
 }
 
 .feedback-pagination {
@@ -459,7 +459,7 @@ a:focus {
     background-color: white;
 }
 
-.feedback-button-prev svg {
+.feedback-button-next svg {
     transform: rotate(180deg);
 }
 
@@ -478,6 +478,13 @@ a:focus {
 }
 
 .feedback-text {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -493,7 +500,13 @@ a:focus {
 }
 
 .feedback-author {
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
     text-transform: uppercase;
 }
 
