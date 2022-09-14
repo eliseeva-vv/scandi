@@ -606,6 +606,7 @@ a:focus {
     margin-right: auto;
     margin-bottom: 0;
     margin-left: 42px;
+    font: inherit;
 }
 
 .copyright {
